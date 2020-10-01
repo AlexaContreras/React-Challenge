@@ -1,0 +1,68 @@
+.movie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+
+  //im not responsive. Make me and my siblings work on all devices
+
+  article {
+    margin: 1em;
+    background: #fff;
+    border-radius: 1em;
+    padding: 1.2em;
+    p {
+      color: #000;
+    }
+    h3 {
+      color: #000;
+      font-family: 'Roboto Condensed', sans-serif;
+      text-transform: uppercase;
+      margin-bottom: 0.3em;
+    }
+    img {
+      margin-bottom: 1em;
+
+      //I may have a variable aspect ratio. Make me responsive watever my size is.
+    }
+    a {
+      padding: 0.4em 0.6em;
+      background: #ea4a66;
+      color: #fff;
+      text-decoration: none;
+      //I dont have hover/focus effect. Give me some feedback for users.
+    }
+  }
+}
+
+@media (min-width: 575px) {
+  .results {
+    max-width: 200px;
+    img {
+      width: 200px;
+    }
+  }
+
+  .article {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 992px) {
+  .results {
+    max-width: 300px;
+    img {
+      width: 300px;
+    }
+  }
+
+  .article {
+    background-color: blue;
+  }
+}

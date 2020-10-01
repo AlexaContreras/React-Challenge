@@ -1,0 +1,15 @@
+header {
+  position: absolute;
+  max-width: 60%;
+  top: 2em;
+  left: 2em;
+  border-bottom: 1px dashed #fff;
+}
+
+main {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

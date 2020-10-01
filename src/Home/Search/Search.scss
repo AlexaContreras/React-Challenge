@@ -1,0 +1,24 @@
+.searchComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    font-size: 2em;
+    color: #444;
+  }
+}
+
+.searchForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  input {
+    width: 300px;
+  }
+  button {
+    width: auto;
+  }
+}

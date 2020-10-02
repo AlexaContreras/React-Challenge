@@ -5,6 +5,7 @@ import { Search } from './Search/Search';
 import { Movie } from './Movie.js/Movie';
 
 export const Home = () => {
+  //setting the state to receive the name of the movie the user types in the input
   const [movie, setMovieName] = useState('');
 
   return (

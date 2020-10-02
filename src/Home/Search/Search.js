@@ -15,7 +15,7 @@ export const Search = ({ setMovieName }) => {
     e.preventDefault();
   };
 
-  // this function handles the click of the button and set the name of the movie the user types and checks if the value is longer than 2, at the end it sets the input to an empty string
+  // this function handles the click of the button and sets the name of the movie the user types, it also checks if the value is longer than 2, at the end it sets the input to an empty string
   const handleClick = () => {
     if (inputValue.trim().length > 2) {
       setMovieName(inputValue);

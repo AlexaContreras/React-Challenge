@@ -30,7 +30,7 @@ export const Search = ({ setMovieName }) => {
         <input
           className='input form-control'
           type='text'
-          placeholder='Type here'
+          placeholder='Please search a movie'
           name='searchTerm'
           onChange={handleChange}
         />

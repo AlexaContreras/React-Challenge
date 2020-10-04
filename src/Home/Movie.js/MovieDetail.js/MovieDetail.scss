@@ -49,21 +49,31 @@
       width: 200px;
     }
   }
-
-  .article {
-    background-color: blue;
-  }
 }
 
 @media (min-width: 992px) {
+  .results {
+    max-width: 200px;
+    img {
+      width: 200px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .results {
+    max-width: 250px;
+    img {
+      width: 250px;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
   .results {
     max-width: 300px;
     img {
       width: 300px;
     }
-  }
-
-  .article {
-    background-color: blue;
   }
 }

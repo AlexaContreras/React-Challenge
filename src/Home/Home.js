@@ -11,9 +11,7 @@ export const Home = () => {
   return (
     <div className='App'>
       <header>
-        <h1>
-          <span>// </span> React challenge
-        </h1>
+        <h1>SEARCH OMDb</h1>
       </header>
       <main>
         <Search setMovieName={setMovieName} />

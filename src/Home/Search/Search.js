@@ -25,7 +25,6 @@ export const Search = ({ setMovieName }) => {
 
   return (
     <div className='searchComponent'>
-      <h2>Search OMDB</h2>
       <form className='searchForm' onSubmit={handleSubmit}>
         <input
           className='input form-control'
@@ -33,8 +32,9 @@ export const Search = ({ setMovieName }) => {
           placeholder='Please search a movie'
           name='searchTerm'
           onChange={handleChange}
+          autoComplete='off'
         />
-        <button className='btn btn-light  ' onClick={handleClick} type='submit'>
+        <button className='button' onClick={handleClick} type='submit'>
           <i className='fas fa-search'></i>
         </button>
       </form>

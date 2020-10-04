@@ -4,7 +4,7 @@ import image from '../../../assets/imgs/no-image.png';
 
 export const MovieDetail = ({ imdb, img, title, year }) => {
   return (
-    <div className='col-12 col-sm-6 col-md-4 align-self-center movie'>
+    <div className='col-12 col-sm-6 col-md-4 col-lg-3 align-self-center movie'>
       <div className='results '>
         <article>
           {/* inside the article we display all the data received from the movie component  */}
